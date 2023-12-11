@@ -1,13 +1,11 @@
-import { Sector } from 'recharts'
-import ChartBox from '../../components/chartBox/ChartBox'
 
-import Countries from '../../components/countries/Countries'
+import Countries from '../../components/countries/Countries.tsx';
 import Relevance from '../../components/relevance/Relevance'
 import SectorGraph from '../../components/sector/SectorGraph'
 import TopBox from '../../components/topBox/TopBox'
 import Year from '../../components/year/Year'
 import "./home.scss"
-import React from 'react'
+
 const Home = () => {
   return (
     // home class for the charts 
